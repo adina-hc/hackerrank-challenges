@@ -4,7 +4,7 @@ function Person(initialAge) {
   // Add some more code to run some checks on initialAge
   if (initialAge > 0) {
     this.age = initialAge;
-    console.log("You are " + age + " years old.");
+    console.log("You are " + this.age + " years old.");
     
   } else {
     this.age = 0;
