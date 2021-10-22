@@ -6,7 +6,7 @@ function getArea(length, width) {
 
   if (length > 0 && length < 1001) {
     if (width > 0 && length < 1001) {
-      let area = (length * width).toFixed(3);
+      let area = (length * width);
     }
   }
 }
@@ -18,7 +18,7 @@ function getPerimeter(length, width) {
 
   if (length > 0 && length < 1001) {
     if (width > 0 && length < 1001) {
-      let area = (length + width).toFixed(3);
+      let perimeter = 2*(length + width);
     }
   }
 }
